@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
+# NotchKiller
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 PRODUCT_PACKAGES += \
     vendor.display.config@1.10 \
     libdisplayconfig \
