@@ -265,6 +265,8 @@ persist.sys.scrollingcache=4
 touch.pressure.scale=0
 debug.cpurend.vsync=false
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+persist.sys.dalvik.hyperthreading=true
+persist.sys.dalvik.multithread=true
 
 # Increase JPEG quality
 ro.media.enc.jpeg.quality=100
