@@ -68,6 +68,10 @@ PRODUCT_HOST_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
