@@ -241,6 +241,20 @@ persist.voip.support.ipv4=1
 persist.dns2.support.ipv6=1
 persist.dns2.support.ipv4=1
 
+# Battery
+persist.sys.shutdown.mode=hibernate
+persist.radio.add_power_save=1
+ro.ril.disable.power.collapse=1
+ro.config.hw_fast_dormancy=1
+ro.semc.enable.fast_dormancy=true
+ro.config.hw_quickpoweron=true
+ro.mot.eri.losalert.delay=1000
+ro.config.hw_power_saving=1
+pm.sleep_mode=1
+ro.ril.sensor.sleep.control=1
+power_supply.wakeup=enable
+ro.config.hw_power_saving=true
+
 # Disable error checking
 ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
