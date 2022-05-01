@@ -154,6 +154,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/pixel/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 # BootFix
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
