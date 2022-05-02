@@ -106,6 +106,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NotchBarKiller
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 # ANT+
 #PRODUCT_PACKAGES += \
 #    AntHalService
