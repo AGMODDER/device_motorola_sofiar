@@ -1,8 +1,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/superior_sofiar.mk
+    $(LOCAL_DIR)/kasumi_sofiar.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_sofiar-eng \
-    superior_sofiar-user \
-    superior_sofiar-userdebug
+    kasumi_sofiar-eng \
+    kasumi_sofiar-user \
+    kasumi_sofiar-userdebug
