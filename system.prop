@@ -196,9 +196,9 @@ persist.dbg.wfc_avail_ovr=1
 persist.radio.calls.on.ims=1
 
 #
-# Amintaskkkk
+# Amintas
 #
-# Better net speed
+# Internet
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,
@@ -264,6 +264,7 @@ debugtool.anrhistory=0
 profiler.launch=false
 profiler.debugmonitor=false
 profiler.hung.dumpdobugreport=false
+persist.sys.purgeable_assets=1
 persist.service.pcsync.enable=0
 persist.service.lgospd.enable=0
 
@@ -286,8 +287,17 @@ ro.media.enc.jpeg.quality=100
 # Do not share usage data
 ro.config.nocheckin=1
 
-# Keep Launcher in Ram
+# Ram
 ro.HOME_APP_ADJ=1
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
 
 # Less frequent WiFi search
 wifi.supplicant_scan_interval=360
