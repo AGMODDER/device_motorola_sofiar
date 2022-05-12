@@ -286,6 +286,8 @@ ro.bq.gpu_to_cpu_unsupported=1
 ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Graphics
+persist.sys.scrollingcache=4
+touch.pressure.scale=0
 debug.cpurend.vsync=false
 debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
