@@ -74,8 +74,6 @@
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <dimen name="status_bar_height">122px</dimen>
-    <dimen name="quick_qs_offset_height">122px</dimen>
-    <dimen name="rounded_corner_radius">95px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
     <dimen name="status_bar_height_portrait">122px</dimen>
     <dimen name="status_bar_icon_size">24dp</dimen>
