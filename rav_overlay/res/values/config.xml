@@ -65,7 +65,6 @@
     <integer-array name="config_virtualKeyVibePattern">
         <item>34</item>
     </integer-array>
-    <dimen name="quick_qs_offset_height">122.0px</dimen>
     <dimen name="status_bar_height">79.0px</dimen>
     <dimen name="status_bar_height_portrait">69.0px</dimen>
 </resources>
