@@ -182,10 +182,25 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     WifiOverlay
 
-# Rav_Overlay
+# Moto Framework Overlay
 PRODUCT_PACKAGES += \
-    MotoRav
+    MotoRav \
+    MotoRavT \
+    MotoSofia \
+    MotoSofiaP \
+    MotoSofiaPSprout \
+    MotoSofiaR
 
+# Moto SystemUI Overlay
+PRODUCT_PACKAGES += \
+    SystemUI_MotoRav \
+    SystemUI_MotoRavT \
+    SystemUI_MotoSofia \
+    SystemUI_MotoSofiaP \
+    SystemUI_MotoSofiaPSprout \
+    SystemUI_MotoSofiaR
+
+# Boot Jars
 PRODUCT_BOOT_JARS += \
     android.hidl.manager-V1.0-java \
     QPerformance \
