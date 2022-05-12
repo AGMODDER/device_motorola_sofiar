@@ -142,8 +142,7 @@ persist.vendor.camera.privapp.list=org.omnirom.snap
 persist.camera.privapp.list=org.omnirom.snap
 
 # Expose CFA Config to specific apps
-ro.camera.cfa.packagelist=com.motorola.camera2,com.motorola.camera3,com.android.MGC,com.google.android.GoogleCameraEng,org.codeaurora.snapcam,com.samsung.android.scan3d,org.codeaurora.qcamera3,com.samsung.android.scan3d,com.agc.cam,com.google.android.GoogleCameraLMC,com.android.hasli.lmc82r8,com.google.android.GoogleCameraGood,HyperCam Strike 6.1 Remix,com.google.android.GoogleCamerb
-
+ro.camera.cfa.packagelist=com.motorola.camera2,com.motorola.camera3
 #Enable ZRAM
 ro.vendor.qti.config.zram=true
 
@@ -198,49 +197,6 @@ persist.radio.calls.on.ims=1
 #
 # Amintas
 #
-# Internet
-net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,
-net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,8
-net.tcp.buffersize.hspa=6144,87380,524288,6144,163
-net.tcp.buffersize.lte=524288,1048576,2097152,5242
-net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
-net.ipv4.ip_no_pmtu_disc=0
-net.ipv4.route.flush=1
-net.ipv4.tcp_ecn=0
-net.ipv4.tcp_fack=1
-net.ipv4.tcp_mem=187000
-net.ipv4.tcp_moderate_rcvbuf=1
-net.ipv4.tcp_no_metrics_save=1
-net.ipv4.tcp_rfc1337=1
-net.ipv4.tcp_rmem=4096
-net.ipv4.tcp_sack=1
-net.ipv4.tcp_timestamps=1
-net.ipv4.tcp_window_scaling=1
-net.ipv4.tcp_wmem=4096
-persist.telephony.support.ipv6=1
-persist.internet.support.ipv6=1 
-persist.dns.support.ipv6=1
-persist.dns.support.ipv4=1
-persist.telephony.support.ipv6=1 
-persist.dhcp.support.ipv6=1
-persist.dhcp.support.ipv4=1
-persist.dnla.support.ipv6=1
-persist.dnla.support.ipv4=1
-persist.web.support.ipv6=1
-persist.web.support.ipv4=1
-persist.tcp.support.ipv6=1
-persist.tcp.support.ipv4=1
-persist.udp.support.ipv6=1
-persist.udp.support.ipv4=1
-persist.voip.support.ipv6=1
-persist.voip.support.ipv4=1
-persist.dns2.support.ipv6=1
-persist.dns2.support.ipv4=1
-
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
 
@@ -270,25 +226,15 @@ profiler.hung.dumpdobugreport=false
 persist.sys.purgeable_assets=1
 persist.service.pcsync.enable=0
 persist.service.lgospd.enable=0
+ro.config.nocheckin=1
 
 # Disable persistant notifications
 persist.adb.notify=0
 persist.mtp.notify=0
 persist.usb.notify=0
 
-# Improve scrolling
-ro.hwui.text_small_cache_width=2048
-ro.hwui.text_small_cache_height=4096
-persist.sys.scrollingcache=4
-touch.pressure.scale=0
-debug.cpurend.vsync=false
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3
-
-# Increase JPEG quality
+# JPEG quality
 ro.media.enc.jpeg.quality=100
-
-# Do not share usage data
-ro.config.nocheckin=1
 
 # Ram
 ro.HOME_APP_ADJ=1
@@ -302,10 +248,10 @@ ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
 
-# Less frequent WiFi search
+# WiFi search
 wifi.supplicant_scan_interval=360
 
-# More volume steps
+# Volume steps
 ro.config.vc_call_steps=14
 ro.config.media_vol_steps=30
 
@@ -333,3 +279,15 @@ debug.sf.no_hw_vsync=0
 debug.hwui.use_buffer_age=false
 hwui.use_gpu_pixel_buffers=true
 ro.bq.gpu_to_cpu_unsupported=1
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
+# Graphics
+debug.cpurend.vsync=false
+debug.sf.latch_unsignaled=1
+persist.demo.hdmirotationlock=false
+persist.hwc.enable_vds=1
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true  
