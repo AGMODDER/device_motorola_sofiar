@@ -241,6 +241,9 @@ persist.voip.support.ipv4=1
 persist.dns2.support.ipv6=1
 persist.dns2.support.ipv4=1
 
+# Netflix
+ro.netflix.bsp_rev=Q6125-17995-1
+
 # Battery
 persist.sys.shutdown.mode=hibernate
 persist.radio.add_power_save=1
@@ -302,7 +305,7 @@ ro.config.sdha_apps_bg_min=8
 # Less frequent WiFi search
 wifi.supplicant_scan_interval=360
 
-# More volume steps (Media & In-call)
+# More volume steps
 ro.config.vc_call_steps=14
 ro.config.media_vol_steps=30
 
@@ -320,3 +323,13 @@ persist.volte_enalbed_by_hw=1
 sys.config.spcm_enable=false
 telephony.lteOnCdmaDevice=1
 net.tethering.noprovisioning=true
+
+# Optimize 
+hwui.disable_vsync=true
+hwui.render_dirty_regions=false
+debug.hwui.disable_vsync=false
+debug.hwui.render_dirty_regions=false
+debug.sf.no_hw_vsync=0
+debug.hwui.use_buffer_age=false
+hwui.use_gpu_pixel_buffers=true
+ro.bq.gpu_to_cpu_unsupported=1
