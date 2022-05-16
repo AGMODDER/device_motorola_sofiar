@@ -158,6 +158,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
 # Display
 PRODUCT_PACKAGES += \
     libion \
