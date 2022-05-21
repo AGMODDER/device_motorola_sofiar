@@ -65,9 +65,9 @@
     <integer-array name="config_virtualKeyVibePattern">
         <item>34</item>
     </integer-array>
-    <dimen name="status_bar_height">79.0px</dimen>
+    <dimen name="status_bar_height">71.0px</dimen>
     <dimen name="status_bar_height_landscape">20dp</dimen>
-    <dimen name="status_bar_height_portrait">69.0px</dimen>
+    <dimen name="status_bar_height_portrait">71.0px</dimen>
 
     <!-- The list of vendor package signatures that should also be considered
          platform signatures, specifically for use on devices with a vendor partition. -->
