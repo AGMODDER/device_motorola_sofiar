@@ -230,32 +230,11 @@ persist.service.pcsync.enable=0
 persist.service.lgospd.enable=0
 ro.config.nocheckin=1
 
-# Disable persistant notifications
-persist.adb.notify=0
-persist.mtp.notify=0
-persist.usb.notify=0
-
-# JPEG quality
-ro.media.enc.jpeg.quality=100
-
 # Ram
 ro.HOME_APP_ADJ=1
-ro.config.fha_enable=true
-ro.sys.fw.bg_apps_limit=32
-ro.config.dha_cached_max=16
-ro.config.dha_empty_max=42
-ro.config.dha_empty_init=32
-ro.config.dha_lmk_scale=0.545
-ro.config.dha_th_rate=2.3
-ro.config.sdha_apps_bg_max=64
-ro.config.sdha_apps_bg_min=8
 
 # WiFi search
 wifi.supplicant_scan_interval=360
-
-# Volume steps
-ro.config.vc_call_steps=14
-ro.config.media_vol_steps=30
 
 # VoLTE + VoWifi Options
 persist.data.iwlan.enable=true
@@ -272,24 +251,12 @@ sys.config.spcm_enable=false
 telephony.lteOnCdmaDevice=1
 net.tethering.noprovisioning=true
 
-# Optimize 
-hwui.disable_vsync=true
-hwui.render_dirty_regions=false
-debug.hwui.disable_vsync=false
-debug.hwui.render_dirty_regions=false
-debug.sf.no_hw_vsync=0
-debug.hwui.use_buffer_age=false
-hwui.use_gpu_pixel_buffers=true
-ro.bq.gpu_to_cpu_unsupported=1
-
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_enable=true
+# Optimize
+ro.vendor.perf.scroll_opt=true
 
 # Graphics
 debug.cpurend.vsync=false
-debug.sf.latch_unsignaled=1
-persist.demo.hdmirotationlock=false
-persist.hwc.enable_vds=1
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.max_virtual_display_dimension=4096
 ro.surface_flinger.protected_contents=true
+ro.surface_flinger.running_without_sync_framework=true
