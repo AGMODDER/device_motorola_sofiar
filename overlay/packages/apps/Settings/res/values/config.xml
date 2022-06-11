@@ -17,11 +17,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <bool name="config_enableManualSubProvisioning">true</bool>
-
+    
     <!-- Whether to use a UI variant that minimizes the number of UI elements on screen. This is
          typically used when there is not enough space to display everything, because pattern view
          doesn't interact well with scroll view -->
     <bool name="config_lock_pattern_minimal_ui">false</bool>
+    
+    <!-- Battery Health -->
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+
 
 
 </resources>
