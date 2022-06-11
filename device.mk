@@ -178,6 +178,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlay
