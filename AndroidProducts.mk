@@ -1,8 +1,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/lineage_sofiar.mk
+    $(LOCAL_DIR)/palladium_sofiar.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sofiar-eng \
-    lineage_sofiar-user \
-    lineage_sofiar-userdebug
+    palladium_sofiar-eng \
+    palladium_sofiar-user \
+    palladium_sofiar-userdebug
