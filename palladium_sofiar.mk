@@ -21,7 +21,7 @@
 
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
-VENDOR_EXCEPTION_PATHS := lineage \
+VENDOR_EXCEPTION_PATHS := palladium \
     motorola \
     gapps
 
@@ -36,7 +36,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/palladium/config/common_full_phone.mk)
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -68,7 +68,7 @@ $(call inherit-product, device/motorola/sofiar/device.mk)
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_sofiar
+PRODUCT_NAME := palladium_sofiar
 PRODUCT_DEVICE := sofiar
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
