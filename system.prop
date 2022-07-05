@@ -211,45 +211,51 @@ ro.semc.enable.fast_dormancy=true
 ro.config.hw_quickpoweron=true
 ro.mot.eri.losalert.delay=1000
 ro.config.hw_power_saving=1
-pm.sleep_mode=1
 ro.ril.sensor.sleep.control=1
 power_supply.wakeup=enable
 ro.config.hw_power_saving=true
 
-# Disable error checking
-ro.kernel.checkjni=0
-ro.kernel.android.checkjni=0
+# Disable logging
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
+ro.kernel.android.checkjni=0
+ro.config.htc.nocheckin=1
+logcat.live=disable
+ro.kernel.checkjni=0
+ro.config.nocheckin=1
+debug.systemui.latency_tracking=0
+persist.sample.eyetracking.log=0
+ro.com.google.locationfeatures=0
+ro.com.google.networklocation=0
+media.metrics.enabled=0
+sys.debug.watchdog=0
+logd.statistics=0
+media.metrics=0
+config.stats=0
+persist.sys.loglevel=0
+sys.log.app=0
+persist.traced.enable=0
+debug.atrace.tags.enableflags=0
 debugtool.anrhistory=0
-profiler.launch=false
+ro.debuggable=1
 profiler.debugmonitor=false
+profiler.launch=false
 profiler.hung.dumpdobugreport=false
-persist.sys.purgeable_assets=1
+trustkernel.log.state=disable
+debug.mdpcomp.logs=0
+pm.sleep_mode=1
+profiler.force_disable_ulog=true
+profiler.force_disable_err_rpt=true
+ro.logd.size.stats=0
 persist.service.pcsync.enable=0
 persist.service.lgospd.enable=0
-ro.config.nocheckin=1
+persist.sys.purgeable_assets=1
 
 # Ram
 ro.HOME_APP_ADJ=1
 
 # WiFi search
 wifi.supplicant_scan_interval=360
-
-# VoLTE + VoWifi Options
-persist.data.iwlan.enable=true
-persist.dbg.ims_volte_enable=1
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1
-persist.radio.calls.on.ims=1
-persist.radio.data_con_rprt=1
-persist.radio.data_ltd_sys_ind=1
-persist.radio.rat_on=combine
-persist.volte_enalbed_by_hw=1
-sys.config.spcm_enable=false
-telephony.lteOnCdmaDevice=1
-net.tethering.noprovisioning=true
 
 # Optimize
 ro.vendor.perf.scroll_opt=true
