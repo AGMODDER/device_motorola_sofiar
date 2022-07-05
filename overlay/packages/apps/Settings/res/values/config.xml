@@ -23,11 +23,5 @@
          doesn't interact well with scroll view -->
     <bool name="config_lock_pattern_minimal_ui">false</bool>
     
-    <!-- Battery Health -->
-    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
-    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
-    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
-
-
 
 </resources>
