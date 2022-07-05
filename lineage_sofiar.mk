@@ -111,4 +111,4 @@ TARGET_GAPPS_ARCH := arm64
 
 # FLOS
 TARGET_FLOS := true
-FLOS_TYPE := vanilla
+WITH_GMS := true
