@@ -64,6 +64,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_HOST_PACKAGES += \
     brillo_update_payload
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
 # Boot control
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
