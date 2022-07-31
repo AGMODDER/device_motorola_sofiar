@@ -131,6 +131,13 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     tcmiface
 
+# ArcanaOS
+ARCANA_DEVICE := Rav/Sofiar
+ARCANA_MAINTAINER := Amintas Gabriel 
+WITH_GAPPS := true
+WITH_LAWNCHAIR := true
+ARCANA_OFFICIAL := false
+
 # Netutils
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0 \
