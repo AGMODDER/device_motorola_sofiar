@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="status_bar_height">122px</dimen>
+    <dimen name="status_bar_height">114px</dimen>
+    <dimen name="quick_qs_offset_height">114px</dimen>
     <dimen name="status_bar_height_landscape">26dp</dimen>
-    <dimen name="status_bar_height_portrait">122px</dimen>
+    <dimen name="status_bar_height_portrait">114px</dimen>
     <dimen name="status_bar_icon_size">24dp</dimen>
     <string name="config_mainBuiltInDisplayCutout">M -544,0 L -410,0 L -410,116 L -544,116 Z</string>
     <string name="config_mms_user_agent">motogstylus</string>
