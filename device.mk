@@ -38,6 +38,14 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     product
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
