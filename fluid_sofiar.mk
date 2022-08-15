@@ -98,6 +98,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.thrashing_limit=60 \
     ro.lmk.swap_free_low_percentage=20 \
     ro.lmk.swap_util_max=80 \
+    ro.fluid.maintainer=Amintas \
+    ro.fluid.cpu=SDM665 \
     ro.lmk.psi_complete_stall_ms=80
 
 # Vendor Proprietary
