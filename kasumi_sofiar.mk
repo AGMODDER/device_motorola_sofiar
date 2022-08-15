@@ -21,7 +21,7 @@
 
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
-VENDOR_EXCEPTION_PATHS := syberia \
+VENDOR_EXCEPTION_PATHS := kasumi \
     motorola \
     gapps
 
@@ -36,7 +36,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
+$(call inherit-product, vendor/kasumi/config/common_full_phone.mk)
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -68,7 +68,7 @@ $(call inherit-product, device/motorola/sofiar/device.mk)
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := syberia_sofiar
+PRODUCT_NAME := kasumi_sofiar
 PRODUCT_DEVICE := sofiar
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
@@ -108,3 +108,5 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
+KASUMI_SHIP_LAWNCHAIR := true
+KASUMI_BUILD_TYPE := gapps
