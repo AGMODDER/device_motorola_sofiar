@@ -150,6 +150,14 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
 # Google Photos
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/pixel/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
