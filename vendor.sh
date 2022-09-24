@@ -13,3 +13,5 @@ git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_timeweather.git
 cd device/**/sepolicy/common/dynamic/
 sed 's/motorola.hardware.health::IMotHealth//;s/u:object_r:hal_health_hwservice:s0//' hwservice_contexts > hwservice_contexts2 && \
 mv hwservice_contexts2 hwservice_contexts
+
+cd ../../../../../
