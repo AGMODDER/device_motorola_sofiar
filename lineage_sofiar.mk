@@ -98,7 +98,16 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.thrashing_limit=60 \
     ro.lmk.swap_free_low_percentage=20 \
     ro.lmk.swap_util_max=80 \
-    ro.lmk.psi_complete_stall_ms=80
+    ro.lmk.psi_complete_stall_ms=80 \
+    persist.sys.fw.bg_apps_limit?=48 \
+    persist.sys.fw.use_trim_settings?=true \
+    persist.sys.fw.empty_app_percent?=50 \
+    persist.sys.fw.trim_empty_percent?=100 \
+    persist.sys.fw.trim_cache_percent?=100 \
+    persist.sys.fw.trim_enable_memory?=2147483648 \
+    persist.sys.fw.bservice_age?=120000 \
+    persist.sys.fw.bservice_limit?=6 \
+    persist.sys.fw.bservice_enable?=true
 
 # Vendor Proprietary
 $(call inherit-product, vendor/motorola/sofiar/sofiar-vendor.mk)
